@@ -6,9 +6,10 @@ import Spotlight from "../components/Spotlight";
 import DesignCreator from "../components/DesignCreator";
 import TheRise from "../components/TheRise";
 import Poster from "../components/Poster";
-import Campaigns from "../components/Campaigns";
+
 import Companys from "../components/Companys";
 import Footer from "../components/Footer";
+import Campaigns from "../components/Campaigns";
 
 const Dashboard = () => {
   return (
