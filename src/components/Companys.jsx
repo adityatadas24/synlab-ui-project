@@ -4,15 +4,15 @@ const Companys = () => {
   return (
     <div className="flex justify-center items-center w-full flex-col text-center bg-[#fafafa]">
       <div className="container mx-auto flex flex-col justify-center items-center w-full mb-20">
-        <h1 className="text-5xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">Assosiated Brands</h1>
-        <p className="text-xl mb-10 text-[#797979]">
+        <h1 className="text-4xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">Assosiated Brands</h1>
+        <p className="text-lg mb-10 text-[#797979]">
           Lorem ipsum dolor, sit amet consectetur adipisicing.
         </p>{" "}
         <div className="flex flex-row flex-wrap w-4/5 justify-center items-center gap-10">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+            height="50"
+            width="230"
             viewBox="-83.76405 -41.87075 725.9551 251.2245"
           >
             <path
@@ -22,8 +22,8 @@ const Companys = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+           height="50"
+            width="230"
             viewBox="-40.446 -22.19 350.532 133.14"
           >
             <path
@@ -50,8 +50,8 @@ const Companys = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+            height="50"
+            width="230"
             viewBox="-90.585 -32.25 785.07 193.5"
           >
             <path
@@ -65,8 +65,8 @@ const Companys = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+           height="50"
+            width="230"
             viewBox="-57 -18.75 494 112.5"
           >
             <path
@@ -76,8 +76,8 @@ const Companys = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+           height="50"
+            width="230"
             viewBox="-139.03575 -80.44425 1204.9765 482.6655"
           >
             <path
@@ -87,8 +87,8 @@ const Companys = () => {
           </svg>
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+            height="50"
+            width="230"
             viewBox="-12.7143 -4.762 110.1906 28.572"
           >
             <path
@@ -100,8 +100,8 @@ const Companys = () => {
 
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            height="60"
-            width="250"
+           height="50"
+            width="230"
             viewBox="-7.95534 -5.106625 68.94628 30.63975"
           >
             <path
@@ -112,27 +112,27 @@ const Companys = () => {
         </div>
       </div>
       <div className="bg-white w-full mb-14 mt-14">
-      <h1 className="text-5xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">How it Works</h1>
+      <h1 className="text-4xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">How it Works</h1>
       <div className="container mx-auto flex flex-col justify-center items-center w-full">
-        <img src={search} alt="" />
+        <img className="w-5/6" src={search} alt="" />
         <div className="flex justify-center items-center text-center w-full">
             <div>
-                <h3 className="text-2xl font-semibold">
+                <h3 className="text-xl font-semibold">
                     Search
                 </h3>
-                <p className="w-full text-lg mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio aut. Totam eligendi magni repudiandae </p>
+                <p className="w-full text-md mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio aut. Totam eligendi magni repudiandae </p>
             </div>
             <div>
-                <h3 className="text-2xl font-semibold">
+                <h3 className="text-xl font-semibold">
                     Share & Review
                 </h3>
-                <p className="w-full text-lg mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio aut. Totam eligendi magni repudiandae </p>
+                <p className="w-full text-md mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio aut. Totam eligendi magni repudiandae </p>
             </div>
             <div>
-                <h3 className="text-2xl font-semibold">
+                <h3 className="text-xl font-semibold">
                     Pay Securly
                 </h3>
-                <p className="w-full text-lg mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio aut. Totam eligendi magni repudiandae</p>
+                <p className="w-full text-md mt-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo, distinctio aut. Totam eligendi magni repudiandae</p>
             </div>
         </div>
       </div>

@@ -38,12 +38,12 @@ const Navbar = () => {
               <a>Join US As Creator</a>
             </li>
           </ul>
-          <a className=" text-3xl ml-10 text-black font-bold cursor-pointer">BookMyCollab</a>
+          <a className=" text-2xl ml-10 text-black font-bold cursor-pointer">BookMyCollab</a>
         </div>
       </div>
       <div className="navbar-end space-x-3 mr-10">
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal mr-6 px-1 text-lg text-[#6c6c6c] font-medium gap-6">
+          <ul className="menu menu-horizontal mr-6 px-1 text-md text-[#6c6c6c] font-medium gap-6">
             <li>
               <a>What We Do</a>
             </li>
@@ -56,7 +56,7 @@ const Navbar = () => {
             <li>
               <a>Join US As Creator</a>
             </li>
-            <button className="bg-[#5525b5] mr-8 px-8 p-2 text-white rounded-xl">Login</button>
+            <button className="bg-[#5525b5] mr-8 px-6 p-2 text-white rounded-xl">Login</button>
 
           </ul>
         </div>
