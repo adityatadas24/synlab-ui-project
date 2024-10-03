@@ -1,5 +1,5 @@
 import React from "react";
-import campaign from "../assets/Campaigns.jpg";
+import campaign from "../assets/Campaign.jpg";
 const Campaigns = () => {
   return (
     <div className="container mx-auto mt-36 mb-20 flex items-center flex-col w-full ">
