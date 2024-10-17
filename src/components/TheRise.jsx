@@ -9,143 +9,147 @@ import fb from "../assets/facebook-v1.svg";
 import YT from "../assets/youtube.svg";
 const TheRise = () => {
   return (
-    <div>
-        <div className=" p-8 ">
-        <div className="container mx-auto mt-8 mb-8">
-          <div className="flex justify-between items-center ">
-            <div>
-              <h1 className="text-4xl text-[#9f6cb9] mb-3 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">On The Rise</h1>
-              <p className="text-lg mb-6 text-[#797979]">
-                Lorem ipsum dolor, sit amet consectetur adipisicing.
-              </p>
+    <div className=" mt-20 mb-16">
+    <div className=" bg-[#fafafa] p-10 ">
+      <div className="container mx-auto mt-8 mb-8 flex justify-between items-center flex-col w-11/12">
+        <div className="flex justify-between items-center w-full">
+          <div>
+            <h1 className="text-3xl text-[#9f6cb9] mb-3 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text max-md:text-2xl">On The Rise</h1>
+            <p className="text-md mb-6 text-[#797979] max-md:text-sm">
+              Lorem ipsum dolor, sit amet consectetur adipisicing.
+            </p>
+          </div>
+          <div>
+            <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white max-md:text-[10px] max-md:px-6">
+              View All
+            </button>
+          </div>
+        </div>
+        <div className="flex flex-row flex-wrap gap-12">
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-lg rounded-xl">
+            <img className="w-fit rounded-xl" src={tanmay} alt="tanmay" />
+            <div className="flex justify-between items-center pt-2 pb-3">
+              <div>
+                <h2 className="text-xl font-semibold flex items-center gap-2">
+                  Tanmay Bhatt{" "}
+                  <span>
+                    <img className="w-6" src={greenTick} alt="tick" />
+                  </span>
+                </h2>
+                <p className="text-[#797979]">tanmaybhatt</p>
+              </div>
+              <div>
+                <h2 className="text-xl font-semibold pl-3">1.9M</h2>
+                <p className="text-[#797979]">Followers</p>
+              </div>
             </div>
-            <div>
-              <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white">
-                View All
+            <hr className="text-[#797979]" />
+            <div className="flex justify-between items-center mt-5 mb-1">
+              <div className="flex justify-between items-center gap-4">
+                <img className="w-4" src={insta} alt="insta" />
+                <img className="w-4" src={YT} alt="yt" />
+                <img className="w-4" src={fb} alt="fb" />
+              </div>
+              <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
+                Compare
               </button>
             </div>
           </div>
-          <div className="flex flex-row flex-wrap gap-10">
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-lg rounded-xl">
-              <img className="w-fit rounded-xl" src={tanmay} alt="tanmay" />
-              <div className="flex justify-between items-center pt-2 pb-3">
-                <div>
-                  <h2 className="text-xl font-semibold flex items-center gap-2">
-                    Tanmay Bhatt{" "}
-                    <span>
-                      <img className="w-6" src={greenTick} alt="tick" />
-                    </span>
-                  </h2>
-                  <p className="text-[#797979]">tanmaybhatt</p>
-                </div>
-                <div>
-                  <h2 className="text-xl font-semibold pl-3">1.9M</h2>
-                  <p className="text-[#797979]">Followers</p>
-                </div>
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
+            <img className="w-fit rounded-xl" src={kusha} alt="tanmay" />
+            <div className="flex justify-between items-center pt-2 pb-3">
+              <div>
+                <h2 className="text-xl font-semibold flex items-center gap-2">
+                  Kusha Kapila{" "}
+                  <span>
+                    <img className="w-6" src={greenTick} alt="tick" />
+                  </span>
+                </h2>
+                <p className="text-[#797979]">kushakapila</p>
               </div>
-              <hr className="text-[#797979]" />
-              <div className="flex justify-between items-center mt-5 mb-1">
-                <div className="flex justify-between items-center gap-4">
-                  <img className="w-4" src={insta} alt="insta" />
-                  <img className="w-4" src={YT} alt="yt" />
-                  <img className="w-4" src={fb} alt="fb" />
-                </div>
-                <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
-                  Compare
-                </button>
+              <div>
+                <h2 className="text-xl font-semibold pl-3">3.7M</h2>
+                <p className="text-[#797979]">Followers</p>
               </div>
             </div>
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
-              <img className="w-fit rounded-xl" src={kusha} alt="tanmay" />
-              <div className="flex justify-between items-center pt-2 pb-3">
-                <div>
-                  <h2 className="text-xl font-semibold flex items-center gap-2">
-                    Kusha Kapila{" "}
-                    <span>
-                      <img className="w-6" src={greenTick} alt="tick" />
-                    </span>
-                  </h2>
-                  <p className="text-[#797979]">kushakapila</p>
-                </div>
-                <div>
-                  <h2 className="text-xl font-semibold pl-3">3.7M</h2>
-                  <p className="text-[#797979]">Followers</p>
-                </div>
+            <hr className="text-[#797979]" />
+            <div className="flex justify-between items-center mt-5 mb-1">
+              <div className="flex justify-between items-center gap-4">
+                <img className="w-4" src={insta} alt="insta" />
+                <img className="w-4" src={YT} alt="yt" />
+                <img className="w-4" src={fb} alt="fb" />
               </div>
-              <hr className="text-[#797979]" />
-              <div className="flex justify-between items-center mt-5 mb-1">
-                <div className="flex justify-between items-center gap-4">
-                  <img className="w-4" src={insta} alt="insta" />
-                  <img className="w-4" src={YT} alt="yt" />
-                  <img className="w-4" src={fb} alt="fb" />
-                </div>
-                <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
-                  Compare
-                </button>
+              <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
+                Compare
+              </button>
+            </div>
+          </div>
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
+            <img className="w-fit rounded-xl" src={rohan} alt="tanmay" />
+            <div className="flex justify-between items-center pt-2 pb-3">
+              <div>
+                <h2 className="text-xl font-semibold flex items-center gap-2">
+                  Rohan Joshi{" "}
+                  <span>
+                    <img className="w-6" src={greenTick} alt="tick" />
+                  </span>
+                </h2>
+                <p className="text-[#797979]">rohanjoshi</p>
+              </div>
+              <div>
+                <h2 className="text-xl font-semibold pl-3">597K</h2>
+                <p className="text-[#797979]">Followers</p>
               </div>
             </div>
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
-              <img className="w-fit rounded-xl" src={rohan} alt="tanmay" />
-              <div className="flex justify-between items-center pt-2 pb-3">
-                <div>
-                  <h2 className="text-xl font-semibold flex items-center gap-2">
-                    Rohan Joshi{" "}
-                    <span>
-                      <img className="w-6" src={greenTick} alt="tick" />
-                    </span>
-                  </h2>
-                  <p className="text-[#797979]">rohanjoshi</p>
-                </div>
-                <div>
-                  <h2 className="text-xl font-semibold pl-3">597K</h2>
-                  <p className="text-[#797979]">Followers</p>
-                </div>
+            <hr className="text-[#797979]" />
+            <div className="flex justify-between items-center mt-5 mb-1">
+              <div className="flex justify-between items-center gap-4">
+                <img className="w-4" src={insta} alt="insta" />
+                <img className="w-4" src={YT} alt="yt" />
+                <img className="w-4" src={fb} alt="fb" />
               </div>
-              <hr className="text-[#797979]" />
-              <div className="flex justify-between items-center mt-5 mb-1">
-                <div className="flex justify-between items-center gap-4">
-                  <img className="w-4" src={insta} alt="insta" />
-                  <img className="w-4" src={YT} alt="yt" />
-                  <img className="w-4" src={fb} alt="fb" />
-                </div>
-                <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
-                  Compare
-                </button>
+              <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
+                Compare
+              </button>
+            </div>
+          </div>
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
+            <img className="w-fit rounded-xl" src={bb} alt="tanmay" />
+            <div className="flex justify-between items-center pt-2 pb-3">
+              <div>
+                <h2 className="text-xl font-semibold flex items-center gap-2">
+                  Bhuvan Bam{" "}
+                  <span>
+                    <img className="w-6" src={greenTick} alt="tick" />
+                  </span>
+                </h2>
+                <p className="text-[#797979]">bhubambam22</p>
+              </div>
+              <div>
+                <h2 className="text-xl font-semibold pl-3">19.4M</h2>
+                <p className="text-[#797979]">Followers</p>
               </div>
             </div>
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
-              <img className="w-fit rounded-xl" src={bb} alt="tanmay" />
-              <div className="flex justify-between items-center pt-2 pb-3">
-                <div>
-                  <h2 className="text-xl font-semibold flex items-center gap-2">
-                    Bhuvan Bam{" "}
-                    <span>
-                      <img className="w-6" src={greenTick} alt="tick" />
-                    </span>
-                  </h2>
-                  <p className="text-[#797979]">bhubambam22</p>
-                </div>
-                <div>
-                  <h2 className="text-xl font-semibold pl-3">19.4M</h2>
-                  <p className="text-[#797979]">Followers</p>
-                </div>
+            <hr className="text-[#797979]" />
+            <div className="flex justify-between items-center mt-5 mb-1">
+              <div className="flex justify-between items-center gap-4">
+                <img className="w-4" src={insta} alt="insta" />
+                <img className="w-4" src={YT} alt="yt" />
+                <img className="w-4" src={fb} alt="fb" />
               </div>
-              <hr className="text-[#797979]" />
-              <div className="flex justify-between items-center mt-5 mb-1">
-                <div className="flex justify-between items-center gap-4">
-                  <img className="w-4" src={insta} alt="insta" />
-                  <img className="w-4" src={YT} alt="yt" />
-                  <img className="w-4" src={fb} alt="fb" />
-                </div>
-                <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
-                  Compare
-                </button>
-              </div>
+              <button className="bg-[#5525b5]  px-4 p-2 text-white rounded-xl">
+                Compare
+              </button>
             </div>
           </div>
         </div>
-        </div>
+      </div>
     </div>
+
+    
+       
+        </div>
+      
   )
 }
 

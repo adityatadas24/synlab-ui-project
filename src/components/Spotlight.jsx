@@ -11,22 +11,22 @@ const Spotlight = ({title}) => {
   return (
     <div className=" mt-16 mb-20">
     <div className=" p-8 ">
-      <div className="container mx-auto mb-8">
-        <div className="flex justify-between items-center ">
-          <div>
-            <h1 className="text-4xl text-[#9f6cb9] mb-3 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">{title}</h1>
-            <p className="text-lg mb-6 text-[#797979]">
-              Lorem ipsum dolor, sit amet consectetur adipisicing.
-            </p>
+    <div className="container mx-auto mt-8 mb-8 flex justify-between items-center flex-col w-11/12">
+          <div className="flex justify-between items-center w-full">
+            <div>
+              <h1 className="text-3xl text-[#9f6cb9] mb-3 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text max-md:text-2xl">{title}</h1>
+              <p className="text-md mb-6 text-[#797979] max-md:text-sm">
+                Lorem ipsum dolor, sit amet consectetur adipisicing.
+              </p>
+            </div>
+            <div>
+              <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white max-md:text-[10px] max-md:px-6">
+                View All
+              </button>
+            </div>
           </div>
-          <div>
-            <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white">
-              View All
-            </button>
-          </div>
-        </div>
         <div className="flex flex-row flex-wrap gap-10">
-          <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-lg rounded-xl">
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-lg rounded-xl">
             <img className="w-fit rounded-xl" src={hegde} alt="tanmay" />
             <div className="flex justify-between items-center pt-2 pb-3">
               <div>
@@ -55,7 +55,7 @@ const Spotlight = ({title}) => {
               </button>
             </div>
           </div>
-          <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
             <img className="w-fit rounded-xl" src={dolly} alt="tanmay" />
             <div className="flex justify-between items-center pt-2 pb-3">
               <div>
@@ -84,7 +84,7 @@ const Spotlight = ({title}) => {
               </button>
             </div>
           </div>
-          <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
             <img className="w-fit rounded-xl" src={kirtika} alt="tanmay" />
             <div className="flex justify-between items-center pt-2 pb-3">
               <div>
@@ -113,7 +113,7 @@ const Spotlight = ({title}) => {
               </button>
             </div>
           </div>
-          <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
+          <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
             <img className="w-fit rounded-xl" src={bb} alt="tanmay" />
             <div className="flex justify-between items-center pt-2 pb-3">
               <div>

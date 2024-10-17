@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <div>
       <div className="bg-[#f7efec] hidden md:block">
-        <div className=" container mx-auto flex justify-between w-full h-96 ">
+        <div className=" container mx-auto flex justify-between w-11/12 h-96 ">
           <div className="flex flex-col items-center mt-14 w-full ">
             <a className=" text-2xl mb-4 text-black mr-44  font-bold cursor-pointer">
               BookMyCollab
@@ -39,7 +39,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="bg-[#302c2b] w-full h-20 hidden md:block">
-        <div className="container mx-auto text-lg pt-6 flex justify-between items-center text-white ">
+        <div className="container mx-auto text-lg pt-6 flex justify-between items-center text-white w-11/12">
           <a>No Upfront Payment</a>
           <a>Verified Creators</a>
           <a>Inbuilt Messengers</a>
@@ -47,7 +47,7 @@ const Footer = () => {
         </div>
       </div>
       <div className=" w-full h-14">
-        <div className="container mx-auto text-lg pt-3 flex justify-between items-center text-[#727070]">
+        <div className="container mx-auto text-lg pt-3 flex justify-between items-center text-[#727070] w-11/12">
           <a>Copyright. All Rights Reserved</a>
           <a>BookMyCollab2024</a>
           

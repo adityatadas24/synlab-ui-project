@@ -15,24 +15,24 @@ import travel from "../assets/travel.jpg";
 
 const Creators = () => {
   return (
-    <div className=" mt-24 mb-20">
-      <div className=" bg-[#fafafa] p-8 ">
-        <div className="container mx-auto mt-8 mb-8">
-          <div className="flex justify-between items-center ">
+    <div className=" mt-20 mb-16">
+      <div className=" bg-[#fafafa] p-10 ">
+        <div className="container mx-auto mt-8 mb-8 flex justify-between items-center flex-col w-11/12">
+          <div className="flex justify-between items-center w-full">
             <div>
-              <h1 className="text-4xl text-[#9f6cb9] mb-3 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">The OG Creators</h1>
-              <p className="text-lg mb-6 text-[#797979]">
+              <h1 className="text-3xl text-[#9f6cb9] mb-3 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text max-md:text-2xl">The OG Creators</h1>
+              <p className="text-md mb-6 text-[#797979] max-md:text-sm">
                 Lorem ipsum dolor, sit amet consectetur adipisicing.
               </p>
             </div>
             <div>
-              <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white">
+              <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white max-md:text-[10px] max-md:px-6">
                 View All
               </button>
             </div>
           </div>
-          <div className="flex flex-row flex-wrap gap-10">
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-lg rounded-xl">
+          <div className="flex flex-row flex-wrap gap-12">
+            <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-lg rounded-xl">
               <img className="w-fit rounded-xl" src={tanmay} alt="tanmay" />
               <div className="flex justify-between items-center pt-2 pb-3">
                 <div>
@@ -61,7 +61,7 @@ const Creators = () => {
                 </button>
               </div>
             </div>
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
+            <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
               <img className="w-fit rounded-xl" src={kusha} alt="tanmay" />
               <div className="flex justify-between items-center pt-2 pb-3">
                 <div>
@@ -90,7 +90,7 @@ const Creators = () => {
                 </button>
               </div>
             </div>
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
+            <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
               <img className="w-fit rounded-xl" src={rohan} alt="tanmay" />
               <div className="flex justify-between items-center pt-2 pb-3">
                 <div>
@@ -119,7 +119,7 @@ const Creators = () => {
                 </button>
               </div>
             </div>
-            <div className="h-max  md:w-1/3 lg:w-[20%] bg-white p-4 shadow-md rounded-xl">
+            <div className="h-max  md:w-1/3 lg:w-[22%] bg-white p-4 shadow-md rounded-xl">
               <img className="w-fit rounded-xl" src={bb} alt="tanmay" />
               <div className="flex justify-between items-center pt-2 pb-3">
                 <div>
@@ -152,16 +152,20 @@ const Creators = () => {
         </div>
       </div>
 
-      <div className=" bg-[#f7efec] p-8">
-        <div className="container mx-auto mt-6 mb-6">
-          <div className="flex justify-between items-center ">
-            <h1 className="text-4xl font-semibold text-[#9f5208] mb-3">
+      <div className=" bg-[#f7efec] p-6">
+     
+        <div className="container mx-auto mt-8 mb-8 flex justify-between items-center flex-col w-11/12">
+
+        <div className="container mx-auto flex justify-between items-center w-11/12">
+            <h1 className="text-2xl font-semibold text-[#9f5208] mb-3 max-md:text-lg">
               Categories
             </h1>
 
-            <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white">
-              View All
-            </button>
+           
+              <button className="border border-black rounded-3xl p-2 px-8 font-semibold hover:bg-black hover:text-white max-md:text-[10px] max-md:px-6">
+                View All
+              </button>
+          
           </div>
 
           <div className="flex flex-row flex-wrap items-center mt-5 gap-4">

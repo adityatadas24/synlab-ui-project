@@ -23,7 +23,7 @@ const Navbar = () => {
           </div>
           <ul
             tabIndex={0}
-            className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow rounded-box w-52 bg-slate-50 text-black"
+            className="menu menu-sm dropdown-content mt-2 z-[1] p-2 shadow rounded-box w-48 bg-slate-50 text-black"
           >
            <li>
               <a>What We Do</a>
@@ -38,12 +38,12 @@ const Navbar = () => {
               <a>Join US As Creator</a>
             </li>
           </ul>
-          <a className=" text-2xl ml-10 text-black font-bold cursor-pointer">BookMyCollab</a>
+          <a className=" text-xl ml-16 text-black font-bold cursor-pointer max-md:fixed mt-2 max-md:ml-11">BookMyCollab</a>
         </div>
       </div>
-      <div className="navbar-end space-x-3 mr-10">
+      <div className="navbar-end space-x-2 mr-8">
         <div className="navbar-center hidden lg:flex">
-          <ul className="menu menu-horizontal mr-6 px-1 text-md text-[#6c6c6c] font-medium gap-6">
+          <ul className="menu menu-horizontal mr-4 px-1 text-sm text-[#6c6c6c] font-medium gap-4">
             <li>
               <a>What We Do</a>
             </li>

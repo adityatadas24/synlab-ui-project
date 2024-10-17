@@ -3,7 +3,7 @@ import search from '../assets/search.jpg'
 const Companys = () => {
   return (
     <div className="flex justify-center items-center w-full flex-col text-center bg-[#fafafa]">
-      <div className="container mx-auto flex flex-col justify-center items-center w-full mb-20">
+      <div className="container mx-auto flex flex-col justify-center items-center w-11/12 mb-20">
         <h1 className="text-4xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">Assosiated Brands</h1>
         <p className="text-lg mb-10 text-[#797979]">
           Lorem ipsum dolor, sit amet consectetur adipisicing.
@@ -111,8 +111,8 @@ const Companys = () => {
           </svg>
         </div>
       </div>
-      <div className="bg-white w-full mb-14 mt-14">
-      <h1 className="text-4xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">How it Works</h1>
+      <div className="bg-white w-11/12 mb-14 mt-14">
+      <h1 className="text-3xl text-[#9f6cb9] mt-10 mb-6 bg-gradient-to-r from-violet-400 via-indigo-700 to-indigo-800 inline-block text-transparent bg-clip-text">How it Works</h1>
       <div className="container mx-auto flex flex-col justify-center items-center w-full">
         <img className="w-5/6" src={search} alt="" />
         <div className="flex justify-center items-center text-center w-full">

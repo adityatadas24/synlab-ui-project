@@ -4,15 +4,15 @@ const DesignCreator = () => {
   return (
     <div
       className="container mx-auto mt-36 mb-20
-     flex items-center w-full gap-16"
-     
+     flex items-center w-11/12 gap-16"
     >
       <div
         className="bg-[#f7efec] rounded-3xl
        p-8 w-5/6 h-max"
       >
-        <h1 className="text-4xl font-semibold mb-4">Meet</h1>
-        <h1 className="text-6xl font-bold w-3/4 h-[400px]">
+        
+        <h1 className="text-3xl font-semibold mb-4">Meet</h1>
+        <h1 className="text-5xl font-bold w-3/4 h-[400px]">
           The Design Creator
         </h1>
         <div>
